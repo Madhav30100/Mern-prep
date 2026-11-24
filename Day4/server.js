@@ -1,8 +1,11 @@
+const cors = require('cors');
+
 //1.Bring express into our file
 const express = require('express');
 
 //2.Intialixe the express application
 const app = express()
+app.use(cors());
 
 //3.Create your first route
 //When someone visits the homepage (localhost:3000), this runs

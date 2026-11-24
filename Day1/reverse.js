@@ -7,4 +7,4 @@ for(i = str.length - 1; i>=0;i--){
 }
 
 console.log("Original:",str);
-console.log("Reversed:",reversed);
+console.log("Reversed:",reversed + "!");
